@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-# Set environment variables
 export USER=root
 export HOME=/root
 
