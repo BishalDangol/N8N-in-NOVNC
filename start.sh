@@ -1,7 +1,11 @@
 #!/bin/bash
 set -e
 
-echo "Starting VNC server..."
+# Set environment variables
+export USER=root
+export HOME=/root
+
+echo "Starting VNC..."
 vncserver :1 -geometry 1360x768
 
 echo "Starting n8n..."
